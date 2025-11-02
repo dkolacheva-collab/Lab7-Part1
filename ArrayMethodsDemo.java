@@ -1,0 +1,22 @@
+import java.util.Arrays;
+
+/**
+ * ArrayMethodsDriver asks for:
+ * 1) Running and testing ArrayMethods class.
+ * 
+ * @author Daniela Kolacheva, dkolacheva@student.sdccd.edu
+ * @version 1.0
+ * @since 11/02/2025
+ */
+public class ArrayMethodsDemo{
+    public static void main (String[] args){
+        ArrayMethods test = new ArrayMethods();
+        System.out.println("Lab7 Pt1 - Let's get ready to rumble :-)");
+        System.out.println("========================================");
+        System.out.println("myArray[] has " + test.count() + " elements");
+        System.out.println("The sum of all elements in myArray[] is: " + test.sum());
+        System.out.printf("The avg of all elements in myArray[] is: %.2f\n", test.average());
+        System.out.println("The largest number in myArray[] is: " + test.findMax());
+        System.out.println("The index of the largest number in myArray[] is: " + test.findIndexOfMax());
+    }
+}
